@@ -1,0 +1,26 @@
+name: Hyper Air Factory Souvy
+type: UnitFactory
+size: 3
+consumes: {
+  power: 0.2
+}
+plans: [
+  {
+    unit: builder
+    requirements: [
+      silicon/15
+      graphenite-souvy/5
+      lead/5
+    ] 
+    time: 1
+  }
+]
+requirements: [
+  copper/50
+  lead/150
+  silicon/70
+  plastanium/30
+  odinum-souvy/60
+]
+category: units
+research: air-factory

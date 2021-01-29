@@ -1,0 +1,13 @@
+type: Conveyor
+name: Hermetic Plastic Conveyor Souvy
+description: The most fast and durable conveyor!
+health: 1000
+requirements: [
+  silicon/1
+  graphenite-souvy/1
+  plastic-souvy/1
+]
+itemCapacity: 20000
+category: distribution
+speed: 20000
+research: plastanium-conveyor

@@ -1,0 +1,8 @@
+type: LiquidSource
+name: Infinity Liquid
+description: "Produce selected Item"
+health: 444
+category: liquid
+liquidCapacity: 100
+buildVisibility: shown
+alwaysUnlocked: true

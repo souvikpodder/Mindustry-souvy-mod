@@ -1,0 +1,17 @@
+type: SolarGenerator
+name: Power Alloy Solar Panel
+description: An improved version of the Large Solar Panel. Takes up a lot of space.
+health: 960
+size: 2
+hasPower: true
+health: 3000
+powerProduction: 6000
+requirements: [
+  thorium/280
+  silicon/400
+  titanium/90
+  graphenite-souvy/80
+  phase-alloy-souvy/115
+]
+buildCostMultiplier: 0.5
+category: power

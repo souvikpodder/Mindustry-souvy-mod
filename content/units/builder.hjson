@@ -1,0 +1,71 @@
+name: Builder
+speed: 6
+maxVelocity: 6
+flying: true
+health: 600000
+range: 1400
+weaponOffsetY: 1
+engineOffsetY: -3
+engineSize: 2
+rotateSpeed: 10
+mass: 5.0
+targetAir: true
+rotateWeapon: true
+buildSpeed: 10
+research: poly
+commandLimit: 46
+weapons:[
+{
+name: builder-weapon
+  x: 0
+  y: -3
+  shootY: 6
+  reload: 0.5
+  ejectEffect: none
+  recoil: 1
+  shootSound: laser
+  rotate: true
+  mirror: false
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.8
+    length: 500
+    damage: 150
+    shootEffect: shootSmall
+    hitColor: e88ec9
+    color: e88ec9
+    despawnEffect: none
+    width: 0.7
+    lifetime: 30
+    knockback: 1.24
+
+    }
+  }
+  {
+  name: builder-weapon
+  x: 0
+  y: -12
+  shootY: -1
+  reload: 0.5
+  ejectEffect: none
+  recoil: 0
+  shootStatusDuration: 100
+  firstShotDelay: 1
+  shootSound: laser
+  mirror: false
+  bullet: {
+    type: LaserBulletType
+    length: 100
+    damage: 500
+    width: 4
+    lifetime: 50
+    largeHit: true
+    healPercent: 60
+    collidesTeam: true
+    sideAngle: 18
+    sideWidth: 0
+    sideLength: 0
+    colors: [d5b2ed, 9671b1, a17dcd]
+    }
+  }
+]

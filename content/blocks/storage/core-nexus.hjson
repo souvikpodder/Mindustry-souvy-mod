@@ -1,0 +1,21 @@
+type: CoreBlock
+name: "Core: Nexus"
+description: Core of the base. Incredibly well armored. Stores humongous amounts of resources.
+details: Experimental fourth iteration. Origin of data unknown.
+size: 6
+health: 8600
+itemCapacity: 18000
+
+requirements: [
+    copper/125
+    lead/125
+    titanium/125
+    silicon/125
+    thorium/125
+    phase-fabric/625
+]
+category: effect
+research: core-nucleus
+
+unitType: builder
+unitCapModifier: 26

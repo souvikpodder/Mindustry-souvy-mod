@@ -1,0 +1,14 @@
+name: Power Tower
+type: PowerNode
+health: 240
+size: 2
+maxNodes: 6000
+laserRange: 200
+requirements: [
+	phase-alloy-souvy/15
+	silicon/20
+	titanium/ 10
+	lead/10
+]
+research: surge-tower
+category: power

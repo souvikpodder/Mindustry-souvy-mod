@@ -1,0 +1,9 @@
+name: "souvy-help-block"
+displayName: "[blue]Souvy Help Block"
+author: "Souvy"
+description: "Adds blocks which produces a ton of resources for free, useful for getting extra resources in campaign."
+version: "1.6"
+minGameVersion: "105"
+dependencies: [
+    braindustry
+]

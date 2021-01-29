@@ -1,0 +1,50 @@
+type: Separator
+name: Infinity Items V2
+description: "Get all item from it use sorter"
+health: 444
+itemCapacity: 444444444
+liquidCapacity: 0
+category: distribution
+size: 1
+hasPower: false
+hasItems: true
+craftTime: 0.0002
+updateEffect: smeltsmoke
+hasShadow: true
+idleSound: drill
+idleSoundVolume: 1
+requirements: [
+]
+consumes: {
+}
+results: [
+    copper/100
+    lead/100
+    graphite/100
+    metaglass/100
+    titanium/100
+    silicon/100
+    thorium/100
+    plastanium/100
+    phase-fabric/100
+    surge-alloy/100
+    blast-compound/100
+    spore-pod/100
+    pyratite/100
+    sand/100
+    coal/100
+    scrap/100
+    braindustry-chromium/100
+    braindustry-exotic-alloy/100
+    braindustry-graphenite/100
+    braindustry-odinum/100
+    braindustry-phase-alloy/100
+    braindustry-plastic/100
+    chromium-souvy/100
+    exotic-alloy-souvy/100
+    graphenite-souvy/100
+    odinum-souvy/100
+    phase-alloy-souvy/100
+    plastic-souvy/100
+]
+alwaysUnlocked: true

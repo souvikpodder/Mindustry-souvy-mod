@@ -1,0 +1,7 @@
+type: ItemSource
+name: Infinity Item
+description: "Produce the selected Item"
+health: 444
+category: distribution
+buildVisibility: shown
+alwaysUnlocked: true
