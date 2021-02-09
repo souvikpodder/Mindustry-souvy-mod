@@ -1,0 +1,15 @@
+type: armoredConveyor
+name: Armored Plastanium Conveyor Souvy
+description: Wonderful and strong Plastanium Conveyor.
+health: 240
+hasItems: true
+itemCapacity: 20000
+requirements: [
+  silicon/2
+  metaglass/1
+  plastanium/2
+]
+category: distribution
+speed: 20000
+research: plastanium-conveyor
+
