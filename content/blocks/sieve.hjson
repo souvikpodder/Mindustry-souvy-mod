@@ -1,0 +1,28 @@
+name: Sieve
+description: Filters sand and outputs scrap.
+type: GenericCrafter
+
+size: 1
+health: 60
+craftTime: 60
+craftEffect: pulverize
+
+hasPower: false
+hasLiquids: false
+hasItems: true
+consumes: {
+	items: {
+		items: [
+			sand/1
+		]
+	}
+}
+
+outputItem: scrap/20
+
+requirements: [
+	copper/35
+]
+
+category: crafting
+research: mechanical-drill

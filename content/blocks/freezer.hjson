@@ -1,0 +1,33 @@
+name: Freezer
+description: Makes snow from water.
+
+size: 3
+
+health: 60
+craftTime: 30
+liquidCapacity: 120.0
+craftEffect: pickup
+idleSound: release
+
+hasPower: true
+hasLiquids: true
+hasItems: true
+consumes: {
+	power: 1.0
+	liquid: {
+		liquid: water
+		amount: 0.4
+	}
+}
+
+outputItem: snowball/3
+
+requirements: [
+	copper/125
+	lead/100
+	graphite/50
+	metaglass/50
+]
+
+category: crafting
+research: heater

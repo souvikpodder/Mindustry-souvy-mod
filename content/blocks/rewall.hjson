@@ -1,0 +1,11 @@
+health: 600
+update: true
+
+requirements: [
+	silicon/3
+	lead/2
+	titanium/1
+]
+
+category: defense
+research: titanium-wall

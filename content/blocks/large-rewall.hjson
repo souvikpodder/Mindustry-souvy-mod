@@ -1,0 +1,12 @@
+health: 2400
+update: true
+size: 2
+
+requirements: [
+	silicon/12
+	lead/8
+	titanium/4
+]
+
+category: defense
+research: rewall
