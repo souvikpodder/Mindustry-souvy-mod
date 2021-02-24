@@ -1,0 +1,26 @@
+name: Fast Bridge Conveyor
+description: A powerful and fast conveyor that can transport items over several blocks at once.Consumes energy.
+type: ItemBridge
+health: 70
+size: 1
+speed: 600
+update: true
+solid: true
+posConfig: true
+range: 100
+trasnportTime: 0.0005
+configurable: true
+unloadable: false
+expanded: true
+hasItems: true
+itemCapacity: 16
+hasPower: true
+requirements: [
+silicon/10
+titanium/10
+]
+consumes: {
+ power: 0.4
+}
+category: distribution
+research: phase-conveyor

@@ -1,15 +1,14 @@
 {
-  	"type":"Router"
-	"size": 2
-	"category": "distribution",
-	"research": "plastanium-conveyor",
-	"requirements": [
-		"graphite/3",
-		"copper/3"
-	],
-
-	"health": 80,
-	"speed": 500000,
-	"itemCapacity": 10,
-	"rotate": false
+	name: Better Router
+	type: Router
+	size: 1
+	category: distribution
+	research: plastanium-conveyor
+	requirements: [
+		graphite/3
+		copper/3
+	]
+	health: 80
+	speed: 5000
+	rotate: false
 }
