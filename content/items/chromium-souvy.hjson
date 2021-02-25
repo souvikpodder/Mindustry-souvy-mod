@@ -1,7 +1,0 @@
-type: Item
-name: Chromium Souvy
-description: A very infusible resource.
-hardness: 4
-cost: 2
-color: dededf
-research: titanium

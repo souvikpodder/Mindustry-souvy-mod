@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Filter
+description: Filters polluted water and extracts thorium from it.
+	
+size: 3
+health: 180
+craftTime: 60
+liquidCapacity: 240.0
+craftEffect: steam
+idleSound: release
+
+hasPower: true
+hasLiquids: true
+hasItems: false
+consumes: {
+	power: 1.0
+	liquid: {
+		liquid: polluted-water
+		amount: 1.0
+	}
+}
+outputLiquid: {
+	liquid: water
+	amount: 160.0
+}
+	
+requirements: [
+	copper/125
+	lead/100
+	graphite/50
+	titanium/50
+]
+	
+category: liquid
+research: cultivator

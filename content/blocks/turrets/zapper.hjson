@@ -1,0 +1,13 @@
+name: Zapper
+shootSound: electronShoot
+loopSound: electronCharge
+requirements: [
+  surge-alloy/300
+  graphite/420
+  metaglass/120
+]
+
+reloadTime: 0.2
+research: shredder
+
+

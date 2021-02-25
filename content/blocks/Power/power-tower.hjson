@@ -5,7 +5,6 @@ size: 2
 maxNodes: 6000
 laserRange: 200
 requirements: [
-	phase-alloy-souvy/15
 	silicon/20
 	titanium/ 10
 	lead/10

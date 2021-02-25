@@ -1,5 +1,5 @@
 const fraction = 25
-const cooldown = 60;
+const cooldown = 2;
 
 const reWall = extendContent(Wall, "rewall", {});
 

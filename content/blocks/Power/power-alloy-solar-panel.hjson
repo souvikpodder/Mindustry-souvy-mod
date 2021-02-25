@@ -10,8 +10,6 @@ requirements: [
   thorium/280
   silicon/400
   titanium/90
-  graphenite-souvy/80
-  phase-alloy-souvy/115
 ]
 buildCostMultiplier: 0.5
 category: power

@@ -1,0 +1,32 @@
+name: Titanium Separator
+description: Filters sand and outputs Titanium.
+type: Separator
+health: 444
+itemCapacity: 444444444
+liquidCapacity: 0
+category: distribution
+size: 1
+hasPower: false
+hasItems: true
+craftTime: 0.0002
+updateEffect: smeltsmoke
+hasShadow: true
+idleSound: drill
+idleSoundVolume: 1
+consumes: {
+	items: {
+		items: [
+			sand/1
+		]
+	}
+}
+results: [
+	titanium/20
+]
+
+requirements: [
+	copper/35
+]
+
+category: crafting
+research: mechanical-drill

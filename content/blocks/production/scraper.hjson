@@ -1,0 +1,17 @@
+type: Drill
+name: Scraper
+description: Small drill made out of scrap.
+size: 2
+health: 1460
+hasLiquids:true
+liquidCapacity: 20
+tier: 10
+hasLiquids: true
+rotateSpeed: 500
+drillTime: 0.0000005
+requirements: [
+	scrap/4
+]
+	
+category: production
+research: silicon-separator

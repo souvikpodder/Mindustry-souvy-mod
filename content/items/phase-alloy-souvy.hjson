@@ -1,9 +1,0 @@
-type: Item
-name: Phase Alloy Souvy
-description: This alloy combines features of Platanium, Surge Alloy and Phase fabric.
-cost: 2
-flammability: 0
-explosiveness: 0
-radioactivity: 0
-color: FF4F00
-research: exotic-alloy-souvy
